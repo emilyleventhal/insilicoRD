@@ -18,6 +18,7 @@
 3.  ```x```: sequencing read length. Default = 60. 
 4.  ```fragment_range_start```: smallest fragment length acceptable. 
 5.  ```fragment_range_end```: largest fragment length acceptable. Default = 2000. 
+6.  fasta file for each chromosome
 
 ### Outputs 
 1. BED file with fields: ```chr```, ```start```, ```end```, ```length```, ```CG```, ```CA```, ```CT```, ```CC```, ```TG```, ```AG```, ```GG```
