@@ -13,12 +13,13 @@
 ## Usage
 
 ### Required inputs
-1. ```enzyme```: the enzyme string. 
-2.  ```enzyme2```: a second enzyme string. Default = None. 
+1. ```enzyme```: the name of the enzyme of interest. 
+2.  ```enzyme2```: the name of a second enzyme. Default = None. 
 3.  ```x```: sequencing read length. Default = 60. 
 4.  ```fragment_range_start```: smallest fragment length acceptable. 
 5.  ```fragment_range_end```: largest fragment length acceptable. Default = 2000. 
 6.  fasta file for each chromosome
+7.  ```RE_table.csv``` with enzyme names matched to their base pair sequence.  
 
 ### Outputs 
 1. BED file with fields: ```chr```, ```start```, ```end```, ```length```, ```CG```, ```CA```, ```CT```, ```CC```, ```TG```, ```AG```, ```GG```
