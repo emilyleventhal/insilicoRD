@@ -255,6 +255,3 @@ def insilicoRD(enzyme, enzyme2=None, x=60, fragment_range_start=None, fragment_r
 
 
 insilicoRD('mspI', 'BfaI', 60)
-
-# i think it must be run in this file because of if __name___ = "__main__"
-# check if the "if __name___ = "__main__"" is necessary --> try without
